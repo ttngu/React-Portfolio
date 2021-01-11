@@ -4,6 +4,7 @@ import {motion} from 'framer-motion';
 
 function Hero() {
     return (
+        
         <div>
             
         </div>
