@@ -1,13 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-import Hero from './components/Hero';
-import Header from './components/Header';
+import Navbar from './components/Navbar/Navbar'
+
+
+// import Hero from './components/Hero';
+// import Header from './components/Header';
+// import Home from './components/pages/Home';
 
 function App() {
   return (
     <div>
-      <Header />
-      <Hero />
+      <Navbar />
+      Hello
+
+      {/* <Home /> */}
+
     </div>
     
   );
