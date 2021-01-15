@@ -1,19 +1,22 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar'
 import Home from './components/pages/Home/Home';
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 
 // import Hero from './components/Hero';
 // import Header from './components/Header';
-// import Home from './components/pages/Home';
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Home/>
-
-      {/* <Home /> */}
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path='/'  component={Home}/>
+        </Switch>
+      </Router>
+      
 
     </div>
     

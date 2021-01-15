@@ -1,21 +1,17 @@
-import React from 'react';
-import Jumbotron from 'react-bootstrap/Jumbotron';
-import Container from 'react-bootstrap/Container';
+import React from 'react'
+import '../../../App.css';
+import Cards from '../../Cards/Cards';
+import HeroSection from '../../HeroSection/HeroSection';
+
+
 
 function Home() {
   return (
     <div>
-      <Jumbotron fluid>
-        <Container>
-          <h1>Welcome</h1>
-          <p>
-            This is a portfolio
-          </p>
-        </Container>
-      </Jumbotron>
+      <HeroSection />
+      <Cards />
     </div>
   )
 }
 
 export default Home
-
