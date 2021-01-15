@@ -1,19 +1,26 @@
 import React from 'react'
 import CardItem from './CardItem'
 import '../Cards/Cards.css'
+import '../../images/icecream.jpg'
 
 function Cards() {
     return (
         <div className="cards">
-            <h1>Check out these destinations!</h1>
+            <h1>Meet Tammy!</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards_items">
+                        
                         <CardItem 
-                        src='images/img-9.jpg'
-                        text='Explore the hidden waterfall deep inside the Amazon Jungle'
-                        label='Adventure'
-                        path='/services'
+                        
+                        src="../../images/icecream.jpg"
+                        style={{
+                          height: 135,
+                          width: 155
+                        }}
+                        text='Blah blah blah, brand statement and stuff will go here eventually when everything else is completed.'
+                        label='Tammy Nguyen'
+                        path='/images'
                         />
                     </ul>
                 </div>

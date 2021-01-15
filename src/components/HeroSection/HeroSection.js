@@ -6,15 +6,15 @@ function HeroSection() {
     return (
         <div className='hero-container'>
             <video src='/videos/waves.mp4' autoPlay loop muted />
-            <h1>Adventure Awaits</h1>   
-            <p>What are you waiting for?</p>     
+            <h1>Tammy Nguyen</h1>   
+            <p>Full Stack Web Designer</p>     
             <div className="heor-btns">
                 <Button 
                 className='btns' 
                 buttonStyle='btn--outline'
                 buttonSize='btn--large'
                 >
-                    GET STARTED
+                    EXPLORE
                 </Button>
                 
             </div>
