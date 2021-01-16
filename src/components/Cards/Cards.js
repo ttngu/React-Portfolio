@@ -13,11 +13,7 @@ function Cards() {
                         
                         <CardItem 
                         
-                        src="../../images/icecream.jpg"
-                        style={{
-                          height: 135,
-                          width: 155
-                        }}
+                        src='../../images/icecream.jpg'
                         text='Blah blah blah, brand statement and stuff will go here eventually when everything else is completed.'
                         label='Tammy Nguyen'
                         path='/images'
