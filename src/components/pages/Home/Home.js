@@ -1,12 +1,15 @@
 import React from 'react'
-import '../../../App.css';
+import './Home.css';
 
 
 
 function Home() {
   return (
-    <div>
-      Hello
+    <div className="Container" style={{textAlign:"center",}}>
+      <div className="ColorBlock">
+      Hello there.
+
+      </div>
     </div>
   )
 }

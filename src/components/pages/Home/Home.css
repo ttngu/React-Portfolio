@@ -1,0 +1,13 @@
+.ColorBlock {
+    position: absolute;
+    width: 90vw;
+    height: 90vh;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+
+    background: #F2EAE4;
+    border-radius: 3px;
+}

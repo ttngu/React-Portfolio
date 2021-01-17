@@ -5,7 +5,6 @@ import NavTabs from './components/NavTabs/NavTabs';
 
 
 // import Hero from './components/Hero';
-// import Header from './components/Header';
 
 function App() {
   return (
@@ -13,6 +12,7 @@ function App() {
       <NavTabs />
       <Router>
         <Switch>
+          
           <Route path='/'  component={Home}/>
           
         </Switch>
