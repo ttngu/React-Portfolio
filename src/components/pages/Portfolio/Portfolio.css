@@ -1,4 +1,6 @@
 /* CHANGE POSTIOIONS AND SIZES FROM PX */
+
+
 .PortTitle {
     position: absolute;
     width: 179px;
@@ -67,15 +69,15 @@
     position: absolute;
     width: 550px;
     height: 191px;
-    left: 812px;
-    top: 381px;
+    left: 20px;
+    top: 351px;
 }
 
 .PortImgTopR {
     position: absolute;
     width: 250px;
     height: 250px;
-    left: 1027px;
+    left: 327px;
     top: 604px;
 
     background: #C4C4C4;
