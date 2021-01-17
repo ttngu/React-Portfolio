@@ -12,7 +12,7 @@ function App() {
     <div>
       <NavTabs />
       {/* <Home /> */}
-      <About />
+      {/* <About /> */}
 
       {/* <Router>
         <Switch>
