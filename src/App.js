@@ -1,7 +1,7 @@
 import './App.css';
-import Nav from './components/Nav/Nav'
 import Home from './components/pages/Home/Home';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import NavTabs from './components/NavTabs/NavTabs';
 
 
 // import Hero from './components/Hero';
@@ -10,10 +10,11 @@ import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 function App() {
   return (
     <div>
+      <NavTabs />
       <Router>
-          <Nav />
         <Switch>
           <Route path='/'  component={Home}/>
+          
         </Switch>
       </Router>
       
