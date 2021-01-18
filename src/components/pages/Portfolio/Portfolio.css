@@ -1,5 +1,7 @@
 /* CHANGE POSTIOIONS AND SIZES FROM PX */
-
+.Container {
+    margin-bottom: 2rem;
+}
 
 .PortTitle {
     position: absolute;
@@ -64,13 +66,13 @@
     padding: 2rem;
 }
 .PortTextTopR {
+    position: absolute;
     padding: 2rem;
     text-align: right;
-    position: absolute;
     width: 550px;
     height: 191px;
     left: 20px;
-    top: 351px;
+    top: 350px;
 }
 
 .PortImgTopR {
@@ -82,4 +84,65 @@
 
     background: #C4C4C4;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.PortImgBottomR {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 202px;
+    top: 1300px;
+
+    background: #C4C4C4;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.PortTextBottomR {
+    position: absolute;
+    padding: 2rem;
+    text-align: right;
+    width: 550px;
+    height: 191px;
+    left: 120px;
+    top: 1050px;
+}
+
+.BgBlockBottomL {
+    position: absolute;
+    width: 583px;
+    height: 637px;
+    left: 20px;
+    top: 950px;
+
+    background: #BFA490;
+    border-radius: 3px;
+}
+
+.PortImgBottomL {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 327px;
+    top: 978px;
+
+    background: #C4C4C4;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+.SmBlockBottomL {
+    padding: 2rem;
+    
+}
+
+.PortTextBottomL {
+    padding: 2rem;
+    position: absolute;
+    width: 561px;
+    height: 224px;
+    left: 75px;
+    top: 1275px;
+
+    background: #F2EAE4;
+    border-radius: 3px;
 }
