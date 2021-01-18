@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import NavTabs from './components/NavTabs/NavTabs';
 import About from './components/pages/About/About';
 import Portfolio from './components/pages/Portfolio/Portfolio';
+import Contact from './components/pages/Contact/Contact';
 
 
 // import Hero from './components/Hero';
@@ -14,7 +15,9 @@ function App() {
       <NavTabs />
       {/* <Home /> */}
       {/* <About /> */}
-      <Portfolio />
+      {/* <Portfolio /> */}
+      <Contact />
+     
 
       {/* <Router>
         <Switch>
