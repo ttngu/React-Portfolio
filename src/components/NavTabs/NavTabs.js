@@ -3,25 +3,27 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './NavTabs.css';
 import '../../images/Logo.png'
+import NavLink from 'react-bootstrap/NavLink'
 
 const Logo = require('../../images/Logo.png')
 
 function NavTabs() {
     return (
         <div>
-            <Navbar bg="light" expand="lg">
-            <Navbar.Brand t0='/home'><img src ={Logo.default} alt="logo" style={{"height":"3rem", "margin":"0.5rem"}}/></Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
-                <Nav.Link to='/home'>Home</Nav.Link>
-                <Nav.Link to='/about'>About</Nav.Link>
-                <Nav.Link to='/portfolio'>Portfolio</Nav.Link>
-                <Nav.Link to='/contact'>Contact</Nav.Link>
-                </Nav>
-            </Navbar.Collapse>
-            </Navbar>
-            
+          
+                <Navbar bg="none" expand="lg" style={{"border":"black solid 1px"}}>
+                <Navbar.Brand t0='/home'><img src ={Logo.default} alt="logo" style={{"height":"2rem", "margin":"0.5rem"}}/></Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="mr-auto">
+                    <NavLink to='/home'>Home</NavLink>
+                    <Nav.Link to='/about'>About</Nav.Link>
+                    <Nav.Link to='/portfolio'>Portfolio</Nav.Link>
+                    <Nav.Link to='/contact'>Contact</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+                </Navbar>
+
         </div>
     )
 }
