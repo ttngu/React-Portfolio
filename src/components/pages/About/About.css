@@ -1,3 +1,12 @@
+.AboutHR{
+    position: absolute;
+    width: 261px;
+    height: 0px;
+    left: 588px;
+    top: 500px; 
+    border: 1px solid #000000;
+}
+
 .AboutPhoto {
     position: absolute;
     width: 264px;
@@ -27,15 +36,6 @@
     color: #000000;
 }
 
-.HrLine{
-    position: absolute;
-    width: 261px;
-    height: 0px;
-    left: 588px;
-    top: 512px;
-
-    border: 1px solid #000000;
-}
 
 .Text {
     text-align: center;
