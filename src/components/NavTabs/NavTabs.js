@@ -10,7 +10,7 @@ function NavTabs() {
     return (
         <div>
             <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="#home"><img src ={Logo.default} alt="logo" style={{"height":"3rem", "margin":"0.5rem"}}/></Navbar.Brand>
+            <Navbar.Brand t0='/home'><img src ={Logo.default} alt="logo" style={{"height":"3rem", "margin":"0.5rem"}}/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
