@@ -1,10 +1,14 @@
 import React from 'react'
 import "./About.css"
+import '../../../images/icecream.jpg'
+
+const Icecream = require('../../../images/icecream.jpg')
 
 function About() {
     return (
         <div className="Conatiner">
             <div className="AboutPhoto">
+            <img src ={Icecream.default} alt="Tammy Nguyen"/>
             </div>
             <div className="AboutTitle">
                 MEET TAMMY
