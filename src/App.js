@@ -1,7 +1,7 @@
 import './App.css';
-import Home from './components/pages/Home/Home';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import NavTabs from './components/NavTabs/NavTabs';
+import Home from './components/pages/Home/Home';
 import About from './components/pages/About/About';
 import Portfolio from './components/pages/Portfolio/Portfolio';
 import Contact from './components/pages/Contact/Contact';
@@ -13,21 +13,15 @@ function App() {
   return (
     <div>
       <NavTabs />
-      {/* <Home /> */}
-      {/* <About /> */}
-      {/* <Portfolio /> */}
-      <Contact />
-     
-
-      {/* <Router>
+      <Router>
         <Switch>
-          
-          
-          <Route path='/'  component={Home}/>
-          <Route path='/#about'  component={About}/>
+          <Route path='/'  exact component={Home}/>
+          <Route path='/about' component={About} />
+          <Route path='/portfolio' component={Portfolio} />
+          <Route path='/contact' component={Contact} />
           
         </Switch>
-      </Router> */}
+      </Router>
       
 
     </div>

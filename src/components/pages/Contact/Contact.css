@@ -28,7 +28,7 @@
     height: 667px;
     left: 916px;
     top: 153px;
-    border: black solid;
+    border: black solid 0.5px;
 
     background: src="./././Images/Sheets.jpg";
 }
