@@ -10,10 +10,10 @@ const Logo = require('../../images/Logo.png')
 const NavTabs = () => {
     return (
 
-            <Navbar bg="none" expand="lg" style={{"border":"black solid 1px"}}>
+            <Navbar bg="none" expand="lg" style={{"border":"black solid 1px"}} >
                 <Navbar.Brand t0='/home'><img src ={Logo.default} alt="logo" style={{"height":"2rem", "margin":"0.5rem"}}/></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
+                <Navbar.Collapse id="basic-navbar-nav" >
                     <Nav className="mr-auto">
                     <NavLink to='/home'>Home</NavLink>
                     <Nav.Link to='/about'>About</Nav.Link>
