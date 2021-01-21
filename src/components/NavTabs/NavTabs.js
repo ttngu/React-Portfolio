@@ -7,11 +7,10 @@ import NavLink from 'react-bootstrap/NavLink'
 
 const Logo = require('../../images/Logo.png')
 
-function NavTabs() {
+const NavTabs = () => {
     return (
-        <div>
-          
-                <Navbar bg="none" expand="lg" style={{"border":"black solid 1px"}}>
+
+            <Navbar bg="none" expand="lg" style={{"border":"black solid 1px"}}>
                 <Navbar.Brand t0='/home'><img src ={Logo.default} alt="logo" style={{"height":"2rem", "margin":"0.5rem"}}/></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -22,9 +21,10 @@ function NavTabs() {
                     <Nav.Link to='/contact'>Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-                </Navbar>
+            </Navbar>
 
-        </div>
+
+        
     )
 }
 

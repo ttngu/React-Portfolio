@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import NavTabs from './components/NavTabs/NavTabs';
@@ -12,15 +13,15 @@ import Contact from './components/pages/Contact/Contact';
 function App() {
   return (
     <div>
-      <NavTabs />
       <Router>
-        <Switch>
-          <Route path='/'  exact component={Home}/>
-          <Route path='/about' component={About} />
-          <Route path='/portfolio' component={Portfolio} />
-          <Route path='/contact' component={Contact} />
-          
-        </Switch>
+        <NavTabs /> 
+          <Switch>
+            <Route path='/'  exact component={Home}/>
+            <Route path='/about' component={About} />
+            <Route path='/portfolio' component={Portfolio} />
+            <Route path='/contact' component={Contact} />
+            
+          </Switch>
       </Router>
       
 
