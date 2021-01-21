@@ -1,18 +1,21 @@
-.AboutHR{
-    position: absolute;
-    width: 261px;
-    height: 0px;
-    left: 588px;
-    top: 500px; 
-    border: 1px solid #000000;
+
+
+.PhotoCol, .TitleCol, .BioCol {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+
 .AboutPhoto {
-    position: absolute;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
     width: 250px;
-    height: 250px;
-    left: 588px;
-    top: 146px;
+    height: 250px; 
+    display: flex;
+
     overflow: hidden;
 
     border: 1px solid #000000;
@@ -25,33 +28,37 @@ img {
 }
 
 .AboutTitle {
+    display: flex;
+    margin-top: 5rem;
     position: absolute;
-    width: 205px;
-    height: 23px;
-    left: 618px;
-    top: 466px;
-
     font-family: Libre Caslon Display;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
-    line-height: 37px;
 
     color: #000000;
 }
-
+.AboutHR{
+    display: flex;
+    position: absolute;
+    width: 261px;
+    margin-top: 7rem;
+    border: 1px solid #000000;
+}
 
 .Text {
+    display: flex;
     text-align: center;
+    margin-top: 25rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    max-width: 400px;
     padding: 1rem;
     position: absolute;
-    width: 469px;
-    height: 203px;
-    left: 485px;
-    top: 552px;
+    /* width: 469px; */
 
     background: #BFB7B0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 3px;
-    /* margin-bottom: 3rem; WHY DOESNT THIS WORK */
+
 }
