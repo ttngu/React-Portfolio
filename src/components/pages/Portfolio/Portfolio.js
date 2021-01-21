@@ -6,28 +6,35 @@ function Portfolio() {
     return (
         <div className="Container">
             <Row>
-                <div className="PortTitle">
+                <Col xs={12} className="PortTitleCol">
+                    <div className="PortTitle">
                     PORTFOLIO
-                </div>
-                <div className="HrLine">
-                </div>
+                    </div>
+                    <div className="HrLine">
+                    </div>
+                </Col>
             </Row>
-            <Row xs={1} md={2}>
+
+            {/* Top Row */}
+            <Row >
                 {/* Top Left Port Section */}
-                <Col>
-                    <div className="BgBlockTop">
-                    </div>
-                    <div className="PortImgTopL">
-                    </div>
-                    <div className="SmBlockTop">
-                        <div className="PortTextTopL">
-                        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.""
+                <Col xs={6}>
+                    <Container>
+                        <div className="BgBlockTop">
                         </div>
-                    </div>
+                        <div className="PortImgTopL">
+                        </div>
+                        <div className="SmBlockTop">
+                            <div className="PortTextTopL">
+                            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.""
+                            </div>
+                        </div>
+                    </Container>
+                    
                 </Col>
 
                 {/* Top Right Port Section */}
-                <Col>
+                <Col xs={6}>
                     <Container>
                         <div className="PortImgTopR">
                         </div>
@@ -37,10 +44,12 @@ function Portfolio() {
                     </Container>
                 </Col>
             </Row>
+
+
             {/* Second Row of Portfolio items */}
-            <Row xs={2}>
+            <Row>
                 {/* Bottom Left Port Section */}
-                <Col>
+                <Col xs={6}>
                     <Container>
                         <div className="PortImgBottomR">
                         </div>
@@ -50,7 +59,7 @@ function Portfolio() {
                     </Container>
                 </Col>
                 {/* Bottom Left Port Section */}
-                <Col>
+                <Col xs={6}>
                     <div className="BgBlockBottomL">
                     </div>
                     <div className="PortImgBottomL">
