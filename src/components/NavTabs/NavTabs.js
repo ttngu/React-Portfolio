@@ -4,6 +4,7 @@ import './NavTabs.css';
 import '../../images/Logo.png'
 import NavLink from 'react-bootstrap/NavLink'
 import { Link } from "react-router-dom";
+import '../NavTabs/NavTabs.css'
 
 const Logo = require('../../images/Logo.png')
 
@@ -20,16 +21,16 @@ const NavTabs = () => {
                 <Nav className="mr-auto">
 
                 <Link className="navbar" to="/home">
-                    Home
+                    HOME
                 </Link>
                 <Link className="navbar" to="/about">
-                    About
+                    ABOUT
                 </Link>
                 <Link className="navbar" to="/portfolio">
-                    Portfolio
+                    PORTFOLIO
                 </Link>
                 <Link className="navbar" to="/contact">
-                    Contact
+                    CONTACT
                 </Link>
 
 

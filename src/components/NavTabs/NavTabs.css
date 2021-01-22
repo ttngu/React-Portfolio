@@ -8,3 +8,9 @@
     border: 1px solid #000000;
 } */
 
+.navbar {
+    color: black;
+    font-size: smaller;
+    font-family: Libre Caslon Display;
+    font-weight: 100;
+}
