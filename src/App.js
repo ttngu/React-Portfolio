@@ -16,7 +16,7 @@ function App() {
       <Router>
         <NavTabs /> 
         <Switch>
-          <Route path='/'  exact component={Home}/>
+          <Route path='/home'  exact component={Home}/>
           <Route path='/about' component={About} />
           <Route path='/portfolio' component={Portfolio} />
           <Route path='/contact' component={Contact} />

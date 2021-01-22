@@ -11,7 +11,7 @@ const NavTabs = () => {
     return (
         <Navbar bg="none" expand="lg" style={{"border":"black solid 1px"}} >
 
-            <Link className="navbar-brand" to="/home">
+            <Link className="navbar-brand" to="/about">
                 <img src ={Logo.default} alt="logo" style={{"height":"2rem", "margin":"0.5rem"}}/>
             </Link>
 
@@ -19,24 +19,16 @@ const NavTabs = () => {
             <Navbar.Collapse id="basic-navbar-nav" >
                 <Nav className="mr-auto">
 
-                <Link
-                    to="/"
-                    className={window.location.pathname === "/home" || window.location.pathname === "/home" ? "nav-link active" : "nav-link"}>
+                <Link className="navbar" to="/home">
                     Home
                 </Link>
-                <Link
-                    to="/"
-                    className={window.location.pathname === "/about" || window.location.pathname === "/about" ? "nav-link active" : "nav-link"}>
+                <Link className="navbar" to="/about">
                     About
                 </Link>
-                <Link
-                    to="/"
-                    className={window.location.pathname === "/portfolio" || window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
+                <Link className="navbar" to="/portfolio">
                     Portfolio
                 </Link>
-                <Link
-                    to="/"
-                    className={window.location.pathname === "/contact" || window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
+                <Link className="navbar" to="/contact">
                     Contact
                 </Link>
 
