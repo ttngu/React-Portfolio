@@ -12,7 +12,7 @@ const NavTabs = () => {
     return (
         <Navbar bg="none" expand="lg" style={{"border":"black solid 1px"}} >
 
-            <Link className="navbar-brand" to="/about">
+            <Link className="navbar-brand" to="/">
                 <img src ={Logo.default} alt="logo" style={{"height":"2rem", "margin":"0.5rem"}}/>
             </Link>
 
@@ -20,9 +20,9 @@ const NavTabs = () => {
             <Navbar.Collapse id="basic-navbar-nav" >
                 <Nav className="mr-auto">
 
-                <Link className="navbar" to="/home">
+                {/* <Link className="navbar" to="/home">
                     HOME
-                </Link>
+                </Link> */}
                 <Link className="navbar" to="/about">
                     ABOUT
                 </Link>
