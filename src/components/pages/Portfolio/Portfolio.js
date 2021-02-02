@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Row, Card } from 'react-bootstrap';
 import './Portfolio.css'
 
 function Portfolio() {
@@ -15,6 +15,7 @@ function Portfolio() {
                 </Col>
             </Row>
 
+
             {/* Top Row */}
             <Row >
                 {/* Top Left Port Section */}
@@ -26,14 +27,18 @@ function Portfolio() {
                         </div>
                         <div className="SmBlockTop">
                             <div className="PortTextTopL">
-                            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.""
+                            <h5>Quarantine Game</h5>
+                            A virtual drinking card game, revolving around the theme of 2020 social distancing.
+                            <li>HTML/CSS, Javascript, Socket.io, MySQL, sequelize and Bootstrap</li>
+                            <li>GitHub:</li>
+                            <li>Deployed:</li>
                             </div>
                         </div>
                     </Container>
                     
                 </Col>
 
-                {/* Top Right Port Section */}
+                {/* Top Right Port Section
                 <Col xs={6}>
                     <Container>
                         <div className="PortImgTopR">
@@ -42,24 +47,30 @@ function Portfolio() {
                         "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.""
                         </div>
                     </Container>
-                </Col>
+                </Col> */}
             </Row>
 
 
             {/* Second Row of Portfolio items */}
             <Row>
                 {/* Bottom Left Port Section */}
-                <Col xs={6}>
+                {/* <Col xs={6}>
                     <Container>
                         <div className="PortImgBottomR">
                         </div>
                         <div className="PortTextBottomR">
-                        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.""
+                        <h3>Quarantine Game</h3>
+                        A virtual drinking card game, revolving around the theme of 2020 social distancing.
+                        <ul>
+                            <ul>HTML/CSS, Javascript, Socket.io, MySQL, sequelize and Bootstrap</ul>
+                            <ul>GitHub:</ul>
+                            <ul>Deployed:</ul>
+                        </ul>
                         </div>
                     </Container>
-                </Col>
+                </Col> */}
                 {/* Bottom Left Port Section */}
-                <Col xs={6}>
+                {/* <Col xs={6}>
                     <div className="BgBlockBottomL">
                     </div>
                     <div className="PortImgBottomL">
@@ -69,7 +80,7 @@ function Portfolio() {
                         "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.""
                         </div>
                     </div>
-                </Col>
+                </Col> */}
 
             </Row>
         </div>
