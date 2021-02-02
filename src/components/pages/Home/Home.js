@@ -7,6 +7,10 @@ import {motion} from 'framer-motion';
 
 
 function Home() {
+  const fadeLeft= {
+    hidden: {opacity:0, x: -100},
+    visible: {opacity: 1, x: 0}
+}
   return (
     <div className="Container" style={{textAlign:"center",}}>
       <Row>
@@ -20,6 +24,16 @@ function Home() {
               Hello there.
             </motion.h1>
 
+            <motion.p
+              variants={fadeLeft}
+              initial='hidden'
+              animate='visible'
+              transition={{duration: 1}}
+            >
+              Welcome to my portfolio!
+            </motion.p>
+
+          
           </div>
         </Col>
       </Row>
