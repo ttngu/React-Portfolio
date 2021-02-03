@@ -1,17 +1,13 @@
 import React from 'react'
-import './ProjectCard.css';
-import '../../Projects.json';
 import { Col, Container, Row, Card, Image } from 'react-bootstrap';
-import '../../images/ProjectA.png'
+import './ProjectB.css'
+import '../../images/ProjectB.png'
 
 const ScreenCap = require('../../images/ProjectA.png');
 
-
-
-function ProjectCard(props) {
+function ProjectA() {
     return (
         <div>
-            <div>
             <Container>
                 <div className="BgBlockTop">
                 </div>
@@ -25,14 +21,13 @@ function ProjectCard(props) {
                     A virtual drinking card game, revolving around the theme of 2020 social distancing.
                     <hr></hr>
                     <ul>HTML/CSS, Javascript, Socket.io, MySQL, sequelize and Bootstrap</ul>
-                    <ul>GitHub: <a href={'https://github.com/ttngu/QuarantineGame'} className="RepoLink">Link Here</a></ul>
-                    <ul>Deployed: <a href={'https://gentle-cliffs-28390.herokuapp.com/'} className="DeployedLink">Link Here</a></ul>
+                    <ul>GitHub: <a href={'https://github.com/TChristensenDrumz/Home-Cooked-Comfort'} className="RepoLink">Link Here</a></ul>
+                    <ul>Deployed: <a href={'https://tchristensendrumz.github.io/Home-Cooked-Comfort/'} className="DeployedLink">Link Here</a></ul>
                     </div>
                 </div>
             </Container>
         </div>
-        </div>
     )
 }
 
-export default ProjectCard
+export default ProjectA
