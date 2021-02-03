@@ -33,7 +33,7 @@ function Portfolio() {
 
             {/* Second Row of Portfolio items */}
             <Row>
-              
+              <ProjectB/>
                 {/* Bottom Left Port Section */}
                 {/* <Col xs={6}>
                     <Container>

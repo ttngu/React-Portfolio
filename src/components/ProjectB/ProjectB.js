@@ -9,16 +9,16 @@ function ProjectB() {
     return (
         <div>
             <Container>
-                <div className="BgBlockTop">
+                <div className="BgBlockTopB">
                 </div>
-                <div className="PortImgTopL">
+                <div className="PortImgTopLB">
                     <Image src={ScreenCap.default}/>
                 </div>
                     
-                <div className="SmBlockTop">
-                    <div className="PortTextTopL">
-                    <h5>Quarantine Game</h5>
-                    A virtual drinking card game, revolving around the theme of 2020 social distancing.
+                <div className="SmBlockTopB">
+                    <div className="PortTextTopLB">
+                    <h5>Home Cooked Comfort</h5>
+                    Recipe search web application to help add some variety to your quarantine meals.
                     <hr></hr>
                     <ul>HTML/CSS, JavaScript, jQuery, AJAX, third party API's and server side API's</ul>
                     <ul>GitHub: <a href={'https://github.com/TChristensenDrumz/Home-Cooked-Comfort'} className="RepoLink">Link Here</a></ul>
