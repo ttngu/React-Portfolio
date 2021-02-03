@@ -1,0 +1,52 @@
+.BgBlockTopC {
+    position: absolute;
+    width: 80%;
+    height: 70%;
+    left: 142px;
+    top: 775px;
+
+    background: #F2EAE4;
+    border-radius: 3px;
+}
+
+.SmBlockTopC {
+    position: absolute;
+    width: 561px;
+    height: 15rem;
+    right: 119px;
+    top: 67rem;
+
+    background: #BFA490;
+    border-radius: 3px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.);
+}
+
+.PortImgTopLC {
+    position: absolute;
+    width: 40%;
+    
+    /* max-width: 500px; */
+    max-height: 100%;
+    left: 12rem;
+    top: 52rem;
+
+    background: #C4C4C4;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    }
+
+.PortTextTopLC {
+    padding: 2rem;
+    font-family: Libre Caslon Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.RepoLinkC, .DeployedLinkC {
+    color: black;
+}
+
+.RepoLinkC:hover, .DeployedLinkC:hover {
+    color: black;
+}
