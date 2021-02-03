@@ -1,6 +1,10 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Image } from 'react-bootstrap'
 import './Contact.css'
+import '../../../images/Sheets.jpg'
+
+const Sheets = require('../../../images/Sheets.jpg');
+
 
 
 function Contact() {
@@ -21,6 +25,7 @@ function Contact() {
                 {/* <div className="SmColorBlock">
                 </div> */}
                 <div className="Image">
+                    <Image src={Sheets.default} />
                 </div>
                 <div className="ContactTxt">
                     <h4>Get In Touch</h4><hr></hr>
@@ -28,9 +33,8 @@ function Contact() {
                     <ul>Email: tammyn.137@gmail.com</ul>
                     <ul><a href={'https://github.com/ttngu'} className="Socials">GitHub</a></ul>
                     <ul><a href={'https://www.linkedin.com/in/tamngu/'} className="Socials">LinkedIn</a></ul>
-                   
-
                 </div>
+
             </Row>
 
         </Container>

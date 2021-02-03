@@ -14,3 +14,7 @@
     font-family: Libre Caslon Display;
     font-weight: 100;
 }
+
+.navbar:hover {
+    color: #8C837B !important
+}

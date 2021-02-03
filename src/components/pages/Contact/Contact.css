@@ -33,7 +33,7 @@
     position: absolute;
     width: 906px;
     height: 490px;
-    left: 102px;
+    left: 15rem;
     top: 210px;
 
     background: #BFB7B0;
@@ -57,18 +57,19 @@
     position: absolute;
     width: 375px;
     height: 667px;
-    left: 916px;
+    right: 15rem;
     top: 153px;
-    border: black solid 0.5px;
+    /* border: black solid 0.5px; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.9);
 
-    background: src="./././Images/Sheets.jpg";
+    background: src="../../../images/Sheets.jpg";
 }
 
 .ContactTxt {
     position: absolute;
     width: 426px;
     height: 188px;
-    left: 188px;
+    left: 20rem;
     top: 267px;
 
     font-family: Libre Caslon Display;
@@ -86,3 +87,4 @@
 .Socials:hover {
     color: #8C837B !important
 }
+
