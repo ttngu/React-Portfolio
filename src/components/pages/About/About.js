@@ -30,13 +30,21 @@ function About() {
             <Row>
                 <Col xs={12} className="BioCol">
                     <div className="Text">
-                    I am a Full Stack Web Developer with a passion for design and technology. After years in the sales, marketing and beauty industry, I have developed an admiration for combining technology and creativity. 
-                    <br/><br/>
-                    When COVID-19 hit Seattle, my lifestyle was forced to change and I was lost for a time. So, I began an ice cream business, The Cup or Cone. I made and sold small batch, homemade ice cream, with flavors inspired by my Asian American upbringing. Although this was a successful business at the time, I grew more interested in web design after creating my first online store-front. This led me to realize that I have a natural desire to create web applications with a fluid data flow and calming, intuitive UI.
-                    <br/><br/>
-                    After much thought and consideration, I decided to pursue a formal education in Full Stack Web Development at UCLA. This intensive certificate program was completed in 12 short weeks, clocking over 100 classroom hours, and 800+ Git commits. The course was rigorous, yet taught me that I am capable of learning anything I set my mind to.
-                    <br/><br/>
-                    I am excited to find my first professional job as a Full Stack Web Developer, with a company who has a fast paced, collaborative culture, I can thrive in as a passionate, self-starter.
+                    <p>
+                        I am a Full Stack Web Developer with a passion to be at the intersection of creativity and technology.
+                        <br/><br/>
+                        When COVID-19 hit Seattle, my lifestyle was forced to change. I began an ice cream business, making and selling small batches of oat milk based ice cream. The decision to use oat milk was due to my own personal dietary restrictions and food allergies. My love for ice cream runs through my veins, but I noticed there was a lack of alternative options that did not taste like cardboard. I chose to create flavors that were unique to my Asian American upbringing that were also not widely available on the market. Although this was a successful business, I grew more interested in web design through creating my first online store-front. This led me to realize that I have a natural desire to create web applications with a fluid data flow and calming, intuitive UI.
+                        <br/><br/>
+                        I decided to pursue a formal education in Full Stack Web Development at UCLA through remote learning. This intensive certificate program was completed in 12 short weeks, clocking over 100 classroom hours, and 925+ Git commits. The course was rigorous, yet taught me that I am capable of learning, adapting and collaborating in various environments.
+                        <br/><br/>
+                        As a passionate, self-starter, I am excited to begin my career as a Full Stack Web Developer within a fast paced, collaborative company.
+
+
+
+
+                    </p>
+                    
+
 
                     </div>
                 </Col>

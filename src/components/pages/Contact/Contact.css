@@ -78,13 +78,13 @@
     font-size: 12px;
     line-height: 15px;
 
-    color: #FFFFFF;
+    color: #212529;
 }
 
 .Socials {
-    color: #FFFFFF !important
+    color: #212529 !important
 }
 .Socials:hover {
-    color: #8C837B !important
+    color: white !important
 }
 
