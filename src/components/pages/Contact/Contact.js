@@ -1,11 +1,20 @@
 import React from 'react'
-import { Container, Row } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import './Contact.css'
 
 
 function Contact() {
     return (
         <Container>
+            <Row>
+                <Col xs={12} className="ContactTitleCol">
+                    <div className="ContactTitle">
+                    CONTACT
+                    </div>
+                    <div className="ContactHrLine">
+                    </div>
+                </Col>
+            </Row>
             <Row xs={12}>
                 <div className="LgColorBlock">
                 </div>
