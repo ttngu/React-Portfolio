@@ -32,7 +32,8 @@
     border: 1px solid #000000;
 }
 
-.BgBlockTop {
+
+/* .BgBlockTop {
     position: absolute;
     width: 583px;
     height: 637px;
@@ -67,8 +68,8 @@
 
 .PortTextTopL {
     padding: 2rem;
-}
-.PortTextTopR {
+} */
+/* .PortTextTopR {
     position: absolute;
     padding: 2rem;
     text-align: right;
@@ -148,4 +149,4 @@
 
     background: #F2EAE4;
     border-radius: 3px;
-}
+} */

@@ -9,8 +9,8 @@ function Contact() {
             <Row xs={12}>
                 <div className="LgColorBlock">
                 </div>
-                <div className="SmColorBlock">
-                </div>
+                {/* <div className="SmColorBlock">
+                </div> */}
                 <div className="Image">
                 </div>
                 <div className="ContactTxt">

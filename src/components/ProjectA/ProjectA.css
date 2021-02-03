@@ -1,0 +1,38 @@
+.BgBlockTop {
+    position: absolute;
+    width: 583px;
+    height: 650px;
+    left: 142px;
+    top: 175px;
+
+    background: #F2EAE4;
+    border-radius: 3px;
+}
+
+.SmBlockTop {
+    position: absolute;
+    width: 561px;
+    height: 270px;
+    left: 119px;
+    top: 602px;
+
+    background: #BFA490;
+    border-radius: 3px;
+}
+
+.PortImgTopL {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    /* max-width: 500px; */
+    max-height: 100%;
+    left: 202px;
+    top: 301px;
+
+    background: #C4C4C4;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    }
+
+.PortTextTopL {
+    padding: 2rem;
+}

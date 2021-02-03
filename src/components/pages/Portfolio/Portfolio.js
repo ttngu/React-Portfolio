@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row, Card } from 'react-bootstrap';
+import ProjectA from '../../ProjectA/ProjectA';
 import './Portfolio.css'
 
 function Portfolio() {
@@ -18,25 +19,7 @@ function Portfolio() {
 
             {/* Top Row */}
             <Row >
-                {/* Top Left Port Section */}
-                <Col xs={6}>
-                    <Container>
-                        <div className="BgBlockTop">
-                        </div>
-                        <div className="PortImgTopL">
-                        </div>
-                        <div className="SmBlockTop">
-                            <div className="PortTextTopL">
-                            <h5>Quarantine Game</h5>
-                            A virtual drinking card game, revolving around the theme of 2020 social distancing.
-                            <li>HTML/CSS, Javascript, Socket.io, MySQL, sequelize and Bootstrap</li>
-                            <li>GitHub:</li>
-                            <li>Deployed:</li>
-                            </div>
-                        </div>
-                    </Container>
-                    
-                </Col>
+                <ProjectA/>
 
                 {/* Top Right Port Section
                 <Col xs={6}>
