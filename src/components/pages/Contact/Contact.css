@@ -48,3 +48,10 @@
 
     color: #FFFFFF;
 }
+
+.Socials {
+    color: #FFFFFF !important
+}
+.Socials:hover {
+    color: #8C837B !important
+}

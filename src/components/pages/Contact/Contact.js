@@ -17,8 +17,8 @@ function Contact() {
                     <h4>Get In Touch</h4><hr></hr>
                     <ul>Phone: 206.639.3200</ul>
                     <ul>Email: tammyn.137@gmail.com</ul>
-                    <ul><a href={'https://github.com/ttngu'}>GitHub</a></ul>
-                    <ul><a href={'https://www.linkedin.com/in/tamngu/'}>LinkedIn</a></ul>
+                    <ul><a href={'https://github.com/ttngu'} className="Socials">GitHub</a></ul>
+                    <ul><a href={'https://www.linkedin.com/in/tamngu/'} className="Socials">LinkedIn</a></ul>
                    
 
                 </div>
