@@ -11,7 +11,7 @@ function Portfolio() {
                     <div className="PortTitle">
                     PORTFOLIO
                     </div>
-                    <div className="HrLine">
+                    <div className="PortHrLine">
                     </div>
                 </Col>
             </Row>

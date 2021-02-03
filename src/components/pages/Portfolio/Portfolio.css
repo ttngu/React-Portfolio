@@ -12,24 +12,26 @@
 
 .PortTitle {
     position: absolute;
-    width: 179px;
-    height: 42px;
     margin-top: 5rem;
     font-family: Libre Caslon Display;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
+    align-items: center;
+    justify-content: center;
 
 
     color: #000000;
 }
 
-.HrLine {
+.PortHrLine {
     display: flex;
     position: absolute;
-    width: 261px;
+    width: 200px;
     margin-top: 7rem;
     border: 1px solid #000000;
+    align-items: center;
+    justify-content: center;
 }
 
 
