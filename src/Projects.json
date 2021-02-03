@@ -12,7 +12,7 @@
         "id": 2,
         "title": "Home Cooked Comfort",
         "blurb": "Recipe search web application to help add some variety to your quarantine meals.",
-        "languages": "HTML/CSS, Javascript, Socket.io, MySQL, sequelize and Bootstrap",
+        "languages": "HTML/CSS, JavaScript, jQuery, AJAX, third party API's and server side API's",
         "github": "https://tchristensendrumz.github.io/Home-Cooked-Comfort/",
         "deployed": "https://github.com/TChristensenDrumz/Home-Cooked-Comfort",
         "image": "../images/ProjectB.gif"
