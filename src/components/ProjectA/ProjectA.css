@@ -35,4 +35,14 @@
 
 .PortTextTopL {
     padding: 2rem;
+    font-family: Libre Caslon Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.RepoLink, .DeployedLink {
+    color: black;
+
 }
