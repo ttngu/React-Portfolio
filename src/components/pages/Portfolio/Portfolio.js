@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Row, Card } from 'react-bootstrap';
 import ProjectA from '../../ProjectA/ProjectA';
+import ProjectB from '../../ProjectB/ProjectB';
 // import ProjectCard from '../../ProjectCard/ProjectCard';
 import './Portfolio.css'
 // import Projects from '../../../Projects.json'
@@ -22,6 +23,7 @@ function Portfolio() {
             {/* Top Row */}
             <Row >
                 <ProjectA/>
+                
 
                 {/* <ProjectCard/> */}
 
@@ -31,6 +33,7 @@ function Portfolio() {
 
             {/* Second Row of Portfolio items */}
             <Row>
+              
                 {/* Bottom Left Port Section */}
                 {/* <Col xs={6}>
                     <Container>

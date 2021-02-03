@@ -5,7 +5,7 @@ import '../../images/ProjectB.gif'
 
 const ScreenCap = require('../../images/ProjectB.gif');
 
-function ProjectA() {
+function ProjectB() {
     return (
         <div>
             <Container>
@@ -30,4 +30,4 @@ function ProjectA() {
     )
 }
 
-export default ProjectA
+export default ProjectB
