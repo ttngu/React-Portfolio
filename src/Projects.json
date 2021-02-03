@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Quarantine Game",
+        "github": "https://github.com/ttngu/QuarantineGame",
+        "image": "../images/ProjectA",
+        "deployed": "https://gentle-cliffs-28390.herokuapp.com/"
+    },
+
+    {
+        "id": 2,
+        "name": "Tammy Nguyen",
+        "github": "https://github.com/ttngu",
+        "image": "https://github.com/ShanniSnax/self-care-pirates/blob/main/client/src/components/images/tammy.jpg?raw=true",
+        "linkedin": "https://www.linkedin.com/in/tamngu/"
+    },
+
+    {
+        "id": 3,
+        "name": "Cathlene Converse",
+        "github": "https://github.com/cgconverse",
+        "image": "https://github.com/ShanniSnax/self-care-pirates/blob/main/client/src/components/images/Cathlene.jpg?raw=true",
+        "linkedin": "https://www.linkedin.com/in/cathlene-c-5b477357/"
+    }
+   
+]
