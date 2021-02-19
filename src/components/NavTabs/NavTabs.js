@@ -10,7 +10,7 @@ const Logo = require('../../images/Logo.png')
 
 const NavTabs = () => {
     return (
-        <Navbar bg="none" expand="lg" style={{"border":"black solid 1px"}} >
+        <Navbar bg="none" expand="lg" >
 
             <Link className="navbar-brand" to="/">
                 <img src ={Logo.default} alt="logo" style={{"height":"2rem", "margin":"0.5rem"}}/>
