@@ -29,7 +29,7 @@ function Contact() {
                 </div>
                 <div className="ContactTxt">
                     <h4>Get In Touch</h4><hr></hr>
-                    <ul>Email: tammyn.137@gmail.com</ul>
+                    <ul><a href={'mailto:tammyn137@gmail.com'} className="Socials">Email</a></ul>
                     <ul><a href={'https://github.com/ttngu'} className="Socials">GitHub</a></ul>
                     <ul><a href={'https://www.linkedin.com/in/tamngu/'} className="Socials">LinkedIn</a></ul>
                 </div>
