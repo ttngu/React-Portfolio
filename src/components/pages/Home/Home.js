@@ -21,6 +21,7 @@ function Home() {
               animate={{opacity: 1}}
               transition={{duration: 1}}
             >
+              {/* Update this to have more information and animations */}
               Hello there.
             </motion.h1>
 
