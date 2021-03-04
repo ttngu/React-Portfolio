@@ -29,7 +29,7 @@
 
 .LgColorBlock {
     position: absolute;
-    width: 906px;
+    width: 50vw;
     height: 490px;
     left: 15rem;
     top: 210px;
@@ -39,7 +39,7 @@
 }
 
 .SmColorBlock {
-    position: absolute;
+    position: relative;
     width: 622px;
     height: 407px;
     left: 748px;
