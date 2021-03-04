@@ -6,7 +6,7 @@
 }
 
 .ContactTitle {
-    position: absolute;
+    position: relative;
     margin-top: 5rem;
     font-family: Libre Caslon Display;
     font-style: normal;
@@ -50,11 +50,13 @@
 }
 
 .Image {
-    position: absolute;
+    display: inline-block;
     width: 375px;
     height: 667px;
-    right: 15rem;
-    top: 153px;
+    left: 60%;
+    /* right: 15rem;
+    top: 153px; */
+    position: relative;
     /* border: black solid 0.5px; */
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.9);
 
