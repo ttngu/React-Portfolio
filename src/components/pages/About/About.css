@@ -44,12 +44,12 @@ img {
 .Text {
     display: flex;
     text-align: center;
-    margin-top: 27rem;
+    margin-top: 5rem;
     margin-left: 2rem;
     margin-right: 2rem;
     max-width: 50vw;
     padding: 2rem;
-    position: absolute;
+    position: relative;
     /* width: 469px; */
 
     background: #BFB7B0;
@@ -58,7 +58,7 @@ img {
     font-family: Libre Caslon Display;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 15px;
 
 }
